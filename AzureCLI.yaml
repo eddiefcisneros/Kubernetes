@@ -1,0 +1,148 @@
+az monitor activity-log list --caller testuser@cdmcloudlab.onmicrosoft.com --output yaml
+- authorization:
+    action: Microsoft.Compute/virtualMachines/start/action
+    role: null
+    scope: /subscriptions/8593511a-70e9-4178-bb96-ca5c45589936/resourceGroups/Baseline/providers/Microsoft.Compute/virtualMachines/Base-CentOS
+  caller: testuser@cdmcloudlab.onmicrosoft.com
+  category:
+    localizedValue: Administrative
+    value: Administrative
+  channels: Operation
+  claims:
+    aio: E2BgYLDOv9rOUVqwdaVdSu+mVf/DBf+tkFTgmx+qfDN+6UGWZxcB
+    appid: 04b07795-8ddb-461a-bbee-02f9e1bf7b46
+    appidacr: '0'
+    aud: https://management.core.windows.net/
+    exp: '1600184829'
+    http://schemas.microsoft.com/claims/authnclassreference: '1'
+    http://schemas.microsoft.com/claims/authnmethodsreferences: pwd
+    http://schemas.microsoft.com/identity/claims/objectidentifier: dd54335e-7425-47db-a0ef-4145b4c66bcf
+    http://schemas.microsoft.com/identity/claims/scope: user_impersonation
+    http://schemas.microsoft.com/identity/claims/tenantid: 305fa1f9-d458-42e6-9bc5-a40cbbec7552
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name: testuser@cdmcloudlab.onmicrosoft.com
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier: THzOSDnU1z7tp58_1j0fNzrOC8uaoxodc6JS-dW-oAs
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn: testuser@cdmcloudlab.onmicrosoft.com
+    iat: '1600180929'
+    ipaddr: 52.152.137.148
+    iss: https://sts.windows.net/305fa1f9-d458-42e6-9bc5-a40cbbec7552/
+    name: testuser
+    nbf: '1600180929'
+    puid: 10032000E3A1EF73
+    rh: 0.AAAA-aFfMFjU5kKbxaQMu-x1UpV3sATbjRpGu-4C-eG_e0ZXALk.
+    uti: kVuOdVgK70aARk2lbxsiAA
+    ver: '1.0'
+    wids: b79fbf4d-3ef9-4689-8143-76b194e85509
+    xms_tcdt: '1579790643'
+  correlationId: 4a6bf151-aef8-4455-ac00-ceb265f062a6
+  description: ''
+  eventDataId: 92ff76d4-61e5-4087-9df5-26563e840f54
+  eventName:
+    localizedValue: End request
+    value: EndRequest
+  eventTimestamp: '2020-09-15T14:51:07.482329+00:00'
+  httpRequest:
+    clientIpAddress: 52.152.137.148
+    clientRequestId: e216a3f5-f762-11ea-ad57-000d3a8fb33b
+    method: POST
+    uri: null
+  id: /subscriptions/8593511a-70e9-4178-bb96-ca5c45589936/resourceGroups/Baseline/providers/Microsoft.Compute/virtualMachines/Base-CentOS/events/92ff76d4-61e5-4087-9df5-26563e840f54/ticks/637357782674823299
+  level: Informational
+  operationId: 4a6bf151-aef8-4455-ac00-ceb265f062a6
+  operationName:
+    localizedValue: Start Virtual Machine
+    value: Microsoft.Compute/virtualMachines/start/action
+  properties:
+    eventCategory: Administrative
+    serviceRequestId: c4966a84-52e1-4ac8-ada1-1050b5a25031
+    statusCode: Accepted
+  resourceGroup: Baseline
+  resourceGroupName: Baseline
+  resourceId: /subscriptions/8593511a-70e9-4178-bb96-ca5c45589936/resourceGroups/Baseline/providers/Microsoft.Compute/virtualMachines/Base-CentOS
+  resourceProviderName:
+    localizedValue: Microsoft.Compute
+    value: Microsoft.Compute
+  resourceType:
+    localizedValue: Microsoft.Compute/virtualMachines
+    value: Microsoft.Compute/virtualMachines
+  status:
+    localizedValue: Accepted
+    value: Accepted
+  subStatus:
+    localizedValue: 'Accepted (HTTP Status Code: 202)'
+    value: Accepted
+  submissionTimestamp: '2020-09-15T14:53:09.233999+00:00'
+  subscriptionId: 8593511a-70e9-4178-bb96-ca5c45589936
+  tenantId: 305fa1f9-d458-42e6-9bc5-a40cbbec7552
+- authorization:
+    action: Microsoft.Compute/virtualMachines/start/action
+    role: null
+    scope: /subscriptions/8593511a-70e9-4178-bb96-ca5c45589936/resourceGroups/Baseline/providers/Microsoft.Compute/virtualMachines/Base-CentOS
+  caller: testuser@cdmcloudlab.onmicrosoft.com
+  category:
+    localizedValue: Administrative
+    value: Administrative
+  channels: Operation
+  claims:
+    aio: E2BgYLDOv9rOUVqwdaVdSu+mVf/DBf+tkFTgmx+qfDN+6UGWZxcB
+    appid: 04b07795-8ddb-461a-bbee-02f9e1bf7b46
+    appidacr: '0'
+    aud: https://management.core.windows.net/
+    exp: '1600184829'
+    http://schemas.microsoft.com/claims/authnclassreference: '1'
+    http://schemas.microsoft.com/claims/authnmethodsreferences: pwd
+    http://schemas.microsoft.com/identity/claims/objectidentifier: dd54335e-7425-47db-a0ef-4145b4c66bcf
+    http://schemas.microsoft.com/identity/claims/scope: user_impersonation
+    http://schemas.microsoft.com/identity/claims/tenantid: 305fa1f9-d458-42e6-9bc5-a40cbbec7552
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name: testuser@cdmcloudlab.onmicrosoft.com
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier: THzOSDnU1z7tp58_1j0fNzrOC8uaoxodc6JS-dW-oAs
+    http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn: testuser@cdmcloudlab.onmicrosoft.com
+    iat: '1600180929'
+    ipaddr: 52.152.137.148
+    iss: https://sts.windows.net/305fa1f9-d458-42e6-9bc5-a40cbbec7552/
+    name: testuser
+    nbf: '1600180929'
+    puid: 10032000E3A1EF73
+    rh: 0.AAAA-aFfMFjU5kKbxaQMu-x1UpV3sATbjRpGu-4C-eG_e0ZXALk.
+    uti: kVuOdVgK70aARk2lbxsiAA
+    ver: '1.0'
+    wids: b79fbf4d-3ef9-4689-8143-76b194e85509
+    xms_tcdt: '1579790643'
+  correlationId: 4a6bf151-aef8-4455-ac00-ceb265f062a6
+  description: ''
+  eventDataId: f3a1ad3d-03fb-4b8c-a6da-ebfbfd740dbc
+  eventName:
+    localizedValue: Begin request
+    value: BeginRequest
+  eventTimestamp: '2020-09-15T14:51:07.207322+00:00'
+  httpRequest:
+    clientIpAddress: 52.152.137.148
+    clientRequestId: e216a3f5-f762-11ea-ad57-000d3a8fb33b
+    method: POST
+    uri: null
+  id: /subscriptions/8593511a-70e9-4178-bb96-ca5c45589936/resourceGroups/Baseline/providers/Microsoft.Compute/virtualMachines/Base-CentOS/events/f3a1ad3d-03fb-4b8c-a6da-ebfbfd740dbc/ticks/637357782672073227
+  level: Informational
+  operationId: 4a6bf151-aef8-4455-ac00-ceb265f062a6
+  operationName:
+    localizedValue: Start Virtual Machine
+    value: Microsoft.Compute/virtualMachines/start/action
+  properties:
+    eventCategory: Administrative
+  resourceGroup: Baseline
+  resourceGroupName: Baseline
+  resourceId: /subscriptions/8593511a-70e9-4178-bb96-ca5c45589936/resourceGroups/Baseline/providers/Microsoft.Compute/virtualMachines/Base-CentOS
+  resourceProviderName:
+    localizedValue: Microsoft.Compute
+    value: Microsoft.Compute
+  resourceType:
+    localizedValue: Microsoft.Compute/virtualMachines
+    value: Microsoft.Compute/virtualMachines
+  status:
+    localizedValue: Started
+    value: Started
+  subStatus:
+    localizedValue: ''
+    value: ''
+  submissionTimestamp: '2020-09-15T14:53:09.232997+00:00'
+  subscriptionId: 8593511a-70e9-4178-bb96-ca5c45589936
+  tenantId: 305fa1f9-d458-42e6-9bc5-a40cbbec7552
+
